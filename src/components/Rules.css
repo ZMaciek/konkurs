@@ -1,0 +1,48 @@
+.rules {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.rules h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.rules-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.rule {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.rule h3 {
+  margin-top: 0;
+  color: #3498db;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.rule ul {
+  padding-left: 1.2rem;
+}
+
+.rule li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .rules-content {
+    grid-template-columns: 1fr;
+  }
+}
